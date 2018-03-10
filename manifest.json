@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "KDS Aspencat Hotkeys",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+          "matches": ["https://aspencat-staff.kohalibrary.com/*"],
+          "js": ["hotkeys.js"]
+        }
+      ]
+}
